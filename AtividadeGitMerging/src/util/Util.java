@@ -10,8 +10,16 @@ package util;
  * @author Lara
  */
 public class Util {
-    //Método IMC (Lara) - Dev1
     
+    public static void main(String[] args) {
+        
+    }
+    
+    
+    //Método IMC (Lara) - Dev1
+    public void calculoIMC(int imc, int peso, int altura) { 
+        imc = peso / altura * altura;
+    }
     
     //Método Conversão (Alicia) - Dev2
 }
